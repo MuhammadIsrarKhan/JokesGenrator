@@ -32,6 +32,9 @@ const InputField = ({ setJoke }) => {
     onSuccess: (data) => {
       setJoke(data?.candidates[0].output);
     },
+    onError: (error) => {
+        toast.error(error.message,{position: 'bottom-right',})
+    }
   });
 
   const handleSubmit = (e) => {
