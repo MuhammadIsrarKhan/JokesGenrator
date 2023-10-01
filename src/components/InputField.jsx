@@ -60,7 +60,7 @@ const InputField = ({ setJoke }) => {
             type="submit"
             className={`${
               getJoke.isLoading
-                ? "bg-white border-[#F47959] text-[#F47959] cursor-not-allowed"
+                ? "bg-white h-[41px] border border-[#F47959] text-[#F47959] cursor-not-allowed"
                 : "bg-[#F47959] border border-[#F47959] text-white cursor-pointer"
             } p-2 rounded-r-md`}
           >
