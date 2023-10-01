@@ -12,10 +12,6 @@ const JokesGenerator = () => {
     question = QuestionAndAnswer[0];
     answer = QuestionAndAnswer[1];
   }
-
-  console.log("====================================");
-  console.log("Joke", joke);
-  console.log("====================================");
   return (
     <>
       <InputField setJoke={setJoke} />

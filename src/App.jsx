@@ -1,5 +1,6 @@
 import "./App.css";
-import JokesGeneratorImage from "../public/jokeGenrator.png";
+import JokesGeneratorImage from "./assets/images/jokeGenrator.png";
+import Footer from "./components/Footer";
 import JokesGenerator from "./components/JokesGenrator";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
           <span class="font-SuicideSquad">Jokes Generator</span>
         </div>
         <JokesGenerator />
+        <Footer />
       </div>
     </>
   );
